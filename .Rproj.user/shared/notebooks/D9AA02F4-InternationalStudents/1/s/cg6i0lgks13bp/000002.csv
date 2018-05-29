@@ -1,0 +1,16 @@
+"0","#這是R Code Chunk"
+"0","library(ggplot2) "
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","library(dplyr)"
+"0","v<-f%>% group_by(`國別`) %>% summarise(`總數` = sum(`總數`)) %>% arrange(desc(`總數`))"
+"0","v<-rbind(top_n(v,10),"
+"0","          slice(v,11:n()) %>% summarise(`國別`=""other"",`總數`=sum(`總數`)))"
+"2","Selecting by �`��
+"
+"0","ggplot()+geom_bar(data=v,aes(x =`國別`,y=`總數`), stat=""identity"")"

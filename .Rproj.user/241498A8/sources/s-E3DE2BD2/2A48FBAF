@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1527430773420.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2A48FBAF",
+    "lastKnownWriteTime" : 8389754659302220320,
+    "last_content_update" : 1527430773420,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E30B127",
+        "caption" : "newfc",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=newfc&cache_key=E30B127",
+        "displayedObservations" : 143,
+        "environment" : "",
+        "object" : "newfc",
+        "preview" : 0,
+        "totalObservations" : 143,
+        "variables" : 45
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

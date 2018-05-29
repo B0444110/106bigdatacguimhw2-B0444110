@@ -1,0 +1,13 @@
+"0","#這是R Code Chunk"
+"0","library(dplyr)"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","sa<-filter(sa,`學年度.1`==103|`學年度.1`==104)"
+"0","f<-data.frame(table(sa$`對方學校國別`))"
+"0","f<-data.frame(`國別`=f$Var1,`總數`=f$Freq)"
+"0","head(arrange(f,desc(`總數`)),10)"
